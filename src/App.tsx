@@ -30,8 +30,9 @@ export default function App() {
     dialogElement.addEventListener('close', () => {
       document.removeChild(dialogElement);
     });
-    dialogElement.showModal();
+    // dialogElement.showModal();
   };
+  // debugger;
 
   return (
     <div className="panel">
